@@ -14,6 +14,15 @@ public class LamdaExpressionDemo {
         ArithemeticOperation addition = (a, b) -> a + b;
         System.out.println(addition.operation(10, 20));
 
+        ArithemeticOperation subtraction = (a, b) -> a - b;
+        System.out.println(subtraction.operation(10, 20));
+
+        ArithemeticOperation multiplication = (a, b) -> a * b;
+        System.out.println(multiplication.operation(10, 20));
+
+        ArithemeticOperation division = (a, b) -> a / b;
+        System.out.println(division.operation(10, 20));
+
     }
 
     public static void process(Hello h){
