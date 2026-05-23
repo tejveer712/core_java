@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/core_java.iml" filepath="$PROJECT_DIR$/.idea/core_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambda_expression_method_refrences/lambda_expression_method_refrences.iml" filepath="$PROJECT_DIR$/lambda_expression_method_refrences/lambda_expression_method_refrences.iml" />
       <module fileurl="file://$PROJECT_DIR$/lamda_expressions/lamda_expressions.iml" filepath="$PROJECT_DIR$/lamda_expressions/lamda_expressions.iml" />
     </modules>
   </component>
