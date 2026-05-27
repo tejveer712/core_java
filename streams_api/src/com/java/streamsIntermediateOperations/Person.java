@@ -1,4 +1,4 @@
-package com.java.streams;
+package com.java.streamsIntermediateOperations;
 
 import java.util.List;
 
