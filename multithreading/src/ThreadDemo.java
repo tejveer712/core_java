@@ -1,0 +1,27 @@
+public class ThreadDemo {
+
+    public static void main(String[] args) {
+
+        Thread thread = new Thread();
+        thread.start();
+
+        Thread thread1 = new Thread(() -> System.out.println("Thread - 1"));
+        thread1.start();
+
+        Runnable runnable = () -> System.out.println("Thread - 2");
+        Thread thread2 = new Thread(runnable);
+        thread2.start();
+
+        HelloThread thread3 = new HelloThread();
+        thread3.start();
+
+        Thread thread4 = new Thread(new HelloThread1());
+        thread4.start();
+
+        Thread thread5 = new Thread(Hello::sayHello);
+        thread5.start();
+
+
+        System.out.println("Main thread");
+    }
+}
